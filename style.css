@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   background-image: url('assets/img/wallpaper.jpg');
 }
 header {
@@ -53,4 +53,15 @@ header > nav {
 .logo {
   height: 70px;
   min-width: 200px;
+}
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main > .container{
+  
+  display: flex ;
+  flex-direction: column;
+  
 }
